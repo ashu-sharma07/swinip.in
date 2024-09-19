@@ -36,7 +36,7 @@ function App() {
   );
   return (
     <div className="app">
-      {subdomain ? (
+      {subdomain && subdomain !== "app" ? (
         requestedOrganisation ? (
           <div>
             <h1>Organisation Id</h1>
